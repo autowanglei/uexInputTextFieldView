@@ -42,6 +42,7 @@
 		function openKeyboard(){
 		    var jsonstr ='{"emojicons":"res://emojicons/emojicons.xml", "placeHold":"请输入内容"}';
     		uexInputTextFieldView.open(jsonstr);
+    		//uexInputTextFieldView.setInputFocused();
 		}
 		
 		function closeKeyboard(){
@@ -60,6 +61,7 @@
 	    <div class="conbor">
 			<div class="consj">
 				<input type="button" value="打开" onclick="openKeyboard();">
+                <input type="button" value="获取焦点" onclick="uexInputTextFieldView.setInputFocused();">
 				<input type="button" value="关闭" onclick="closeKeyboard();">
 	        </div>
 	    </div>

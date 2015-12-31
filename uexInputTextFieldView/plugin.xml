@@ -6,6 +6,7 @@
         <method name="open" />
         <method name="close" />
         <method name="onCommit" />
+        <method name = "setInputFocused"/>
     </plugin>
 
 </uexplugins>
